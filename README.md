@@ -1,1 +1,1 @@
-"# How do you hide the search biutton in the Website?" 
+"# How do you hide the search button in the Website?" 
