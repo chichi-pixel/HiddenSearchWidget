@@ -6,7 +6,7 @@
 body {
     background-image: linear-gradient(90deg, #ff8c00, #df2929);
     font-family: 'Roboto', sans-serif;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -14,30 +14,26 @@ body {
     margin: 0;
     
 }
-
-.search {
-    position: relative;        
-}
-
 .search .input {
     background-color:#dcdcdc;
     border: 0;
     font-size: 25px;
     padding: 20px;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 20px;
     transition: width 0.3s ease;
 }
 
 .btn {
     background-color: #dcdcdc;
+    margin-left: -50px;
     border: 0;
     cursor: pointer;
     font-size: 25px;
     top: 0;
     left: 0;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     transition: transform 0.3s ease;
 }
 
@@ -47,11 +43,11 @@ body {
 }
 
 .search.active .input {
-    width: 200px;
+    width: 320px;
 }
 
 .search.active .btn {
-    transform: translateX(px);
+    transform: translateX(200px);
 }
 
 
